@@ -1,10 +1,15 @@
 ---
 layout: layout
-title: siejkowski github
+title: siejkowski.net
 ---
 
-<div class="content">
-  {% for post in site.posts %}
-    <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-  {% endfor %}
+<div class="structure1">
+  <div class="content1">
+  	{% include content.html %}
+  </div>
+  <div class="structure2">
+    <div class="content2">
+      {% include content.html %}
+    </div>
+  </div>
 </div>
