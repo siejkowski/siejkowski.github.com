@@ -95,21 +95,21 @@ a {
   overflow: hidden;
 }
 .content1 {
-  left: 7%;
+  left: 11%;
   color: #033649;
   width: 60%;
   float: left;
   position: relative;
 }
 .content2 {
-  left: 67%;
+  left: 71%;
   color: #e8ddcb;
   width: 60%;
   float: left;
   position: relative;
 }
 .header {
-  font: 80px 'Averia Serif Libre', serif;
+  font: 50px 'Averia Serif Libre', serif;
 }
 .links {
   font: 30px 'Averia Serif Libre', serif;
