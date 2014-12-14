@@ -44,73 +44,36 @@ textarea {
 /* ==========================================================================
  Author's custom styles
  ========================================================================== */
-body {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: moz-none;
-  -ms-user-select: none;
-  user-select: none;
-}
 html {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
 body {
-  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  text-align: left;
+  color: #666666;
+}
+h1 {
+  overflow: visible;
+  margin-left: 0%;
+  font: 40px 'Lora', serif;
+}
+h2 {
+  margin-left: 10%;
+  font: 18px 'Lora', serif;
+  line-height: 1.6;
 }
 a {
   text-decoration: none;
-  color: inherit;
-}
-.structure {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
+  color: #24C0EB;
 }
 .content {
+  left: 20%;
   width: 60%;
-  float: left;
-  position: relative;
-}
-.structure1 {
-  background: #e8ddcb;
-  width: 100%;
-  height: 100%;
   position: absolute;
   overflow: hidden;
-}
-.structure2 {
-  background: #033649;
-  right: 60%;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-}
-.content1 {
-  left: 11%;
-  color: #033649;
-  width: 60%;
-  float: left;
-  position: relative;
-}
-.content2 {
-  left: 71%;
-  color: #e8ddcb;
-  width: 60%;
-  float: left;
-  position: relative;
-}
-.header {
-  font: 50px 'Averia Serif Libre', serif;
-}
-.links {
-  font: 30px 'Averia Serif Libre', serif;
 }
