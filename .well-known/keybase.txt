@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/siejkowski
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://siejkowski.net
+  * I am siejkowski (https://keybase.io/siejkowski) on keybase.
+  * I have a public key with fingerprint 8D26 591D 3FC0 E0FB 8E69  4DD3 5290 1436 EC39 7652
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "8d26591d3fc0e0fb8e694dd352901436ec397652",
+            "host": "keybase.io",
+            "key_id": "52901436ec397652",
+            "kid": "0101a827e828d8dbceb4b858a5d8771a5632b79c40369574f091de7a6a5477f1da580a",
+            "uid": "67cfa24965b5bf75de40d1e72a8ac700",
+            "username": "siejkowski"
+        },
+        "service": {
+            "hostname": "siejkowski.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1420661223,
+    "expire_in": 157680000,
+    "prev": null,
+    "seqno": 1,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMHxAnicbZFdSBRRFMd3/d4NUaOebAUnRKTN5vtjHwoDjdKQWvvE2u7M3FnH1Zlt
+d9ZVZJF8KXoQwy0QRE3Q6kExCoRdyLXCoMX0IfuQKMFIIY1y0dQKm1nqqe7L5Z7z
++//Puec8zU41Wc3jzqKcC/ibm+b4REbAVDN8Y7EV4VWxBXG0Ih6YvCRZcUOf1ycr
+GuJAWBGnKQ4TCUlAISrxLKQ5UhQJCudQjCRoKBAcQ1M4YkfqVL+h0G144IelsqrH
+9IdLFvXof3hPMoFiKAZYnIEszoqsyAuQJ3mWYgElsgyDAYomcJ7hBBIlaI5iSAnV
+u4EMoAFFMoyEiYBiUaDbBZJ2NCNIACc5muIpXmIoEZKoiEEGBywQGBQ1QD/0KaAR
+6rRfhvUeNej3yEjIjujxJlmAxhCMv/zDlCpQ0/Ven6qpgtqg5+o0zeswpFqL12CD
+kHf9cXHxsiLqo9QFTdDnl1UFcWA6KWiyYYuROErTGI4TdgQ2e2UfdMkGQTE0i+rH
+KAObEIcSaGgwOrusqHpWLwTcyZ7cCtACPoiEHsdq00xmqykjPcVYp8lqyf275LMb
+mdvl4enQSEvv54WJ3dcTiTLL5EY8WhM+uJRWnba3mHDuX5/qKShZX867+PH96MzO
+cHSh/mVFgj3kfnSN6qzqnesYjXzfF12pONWXHwXnbvfOopcsp9qwka/x8oHMyMOf
+X7rKvrURi/PewsqUk+bIEnl+ciW9qDPDdnhs2GQT2r19u37cm3l7Yk9mY/Om7dWm
+7cXr+Ob03aNXB+3md/mmeeJAqDh79XTC8iCnK1bdUbgjTH7on10rCd5PdXVt196p
+ox3O8byhMelIVax7uYccOBY7k3Nr6rjTntWd239lxDq0FuGeNBYo24MblVkgODds
+feb7NdDO5H16ni1vba3+BqfKG5c=
+=GP7g
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/siejkowski
+
+==================================================================
+
