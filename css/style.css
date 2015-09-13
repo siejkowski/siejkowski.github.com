@@ -11,6 +11,7 @@ textarea {
 body {
   font-size: 1em;
   line-height: 1.4;
+  max-width: 640px;
 }
 ::selection {
   background: #b3d4fc;
