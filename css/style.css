@@ -84,9 +84,8 @@ a {
 }
 .content {
   max-width: 640px;
-  left: 20%;
+  margin: auto;
   width: 60%;
-  position: absolute;
 }
 pre {
   white-space: pre-wrap;
