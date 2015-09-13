@@ -89,14 +89,18 @@ a {
 }
 pre {
   white-space: pre-wrap;
-  text-indent: 2.4em;
-  font-size: 1.15em;
+  text-indent: 3.0em;
+  font-size: 1em;
 }
 p {
   font: 19px "Source Sans Pro", Georgia, serif;
   line-height: 1.30;
 }
 p code {
-  font: 0.8em "Source Code Pro", monospace;
+  font: 0.9em "Source Code Pro", monospace;
+  color: green;
   font-weight: bold;
+}
+code {
+  font-family: "Source Code Pro", monospace;
 }
