@@ -1,16 +1,37 @@
-<!DOCTYPE HTML>
-
+---
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+ 
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="author" content="Krzysztof Siejkowski" />
-    <meta name="keywords" content="krzysztof, siejkowski, krzysztof siejkowski, github, contact, programmer, anthropologist, programista, antropolog" />
-    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="krzysztof, siejkowski, krzysztof siejkowski, github, contact, programmer, anthropologist, programista, antropolog,{% if page.keywords %},{{ page.keywords }}{% endif %}" />
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% endif %} />
+    <meta charset="utf-8" /> 
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@_siejkowski" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% endif %}" />
+    <meta name="twitter:url" content="{{ site.deployurl }}{{ page.url }}" />
+    
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-    <title>{{ page.title }}</title>
+
+    <link type="text/css" rel="stylesheet" href="{{ site.url }}/css/style.css">
+    <link type="text/css" rel="stylesheet" href="{{ site.url }}/css/syntax.css">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
   </head>
   <body>
+    <div class="content">
       {{ content }}
+    </div>  
   </body>
 </html>

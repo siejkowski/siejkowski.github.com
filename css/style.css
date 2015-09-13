@@ -58,9 +58,20 @@ body {
 h1 {
   overflow: visible;
   margin-left: 0%;
-  font: 40px 'Lora', serif;
+  font: 32px 'Lora', serif;
 }
 h2 {
+  font: 22px 'Lora', serif;
+  line-height: 1.35;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h3 {
+  font: 20px 'Lora', serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h6 {
   margin-left: 10%;
   font: 18px 'Lora', serif;
   line-height: 1.7;
@@ -73,4 +84,17 @@ a {
   left: 20%;
   width: 60%;
   position: absolute;
+}
+pre {
+  white-space: pre-wrap;
+  text-indent: 2.4em;
+  font-size: 1.15em;
+}
+p {
+  font: 19px "Source Sans Pro", Georgia, serif;
+  line-height: 1.30;
+}
+p code {
+  font: 0.8em "Source Code Pro", monospace;
+  font-weight: bold;
 }
