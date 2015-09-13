@@ -59,6 +59,8 @@ h1 {
   overflow: visible;
   margin-left: 0%;
   font: 32px 'Lora', serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 h2 {
   font: 22px 'Lora', serif;
