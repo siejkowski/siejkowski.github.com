@@ -201,7 +201,7 @@ Did I mention that if you've watched ["Protocol-Oriented Programming in Swift"](
 
 {% endhighlight %}
 
-Instead of requiring the associated type in protocol, we can add a `Self` requirement. This way we're expressing that for whatever type we're providing the typeclass implementation, it requires the value of that type as the parameter. It stays closer to the original Haskell definition, because the typeclass doesn't need to be generic. It is just like a template for multiple function definitions that differ only by the type in signature. `Self` expresses exactly that, therefore the actual implementations become easier to write and more readable: 
+Instead of requiring the associated type in protocol, we can add a `Self` requirement. This way we're expressing that for whatever type we're providing the typeclass implementation, it requires the value of that type as the parameter. It stays closer to the original Haskell definition, because the typeclass doesn't need to be generic. It is just like a template for multiple function definitions that differ only by the type in signature. `Self` expresses exactly that. There is also another way of expressing the same idea: see [this article on how to do it using Swift 1.2](http://slashmesays.tumblr.com/post/87833542239/type-classes-in-swift) (spoiler alert: `<C: Ceasarable where C.T == C>`, but for Swift 2.0 the most straightforward is with `Self`. The actual implementations become easier to write and more readable: 
 
 {% highlight swift %}
 

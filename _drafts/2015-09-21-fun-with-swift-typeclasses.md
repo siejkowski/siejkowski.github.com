@@ -1,13 +1,34 @@
 ---
 
 layout: layout
-title: "Road to Mobilization #2: How can we use Swift typeclasses?"
+title: "Road to Mobilization #2: Swift typeclasses refactored, modified and used"
 author: Krzysztof Siejkowski
 date: 2015-09-21
 keywords: mobilization, mobilization 2015, swift, typeclasses, haskell, scala, typeclasses in swift
 description: 
 
 ---
+
+# outline:
+
+## refactor:
+* default implementations in extensions can help avoid code repetition
+* can we express typeclasses for protocols? (not really, it seams)
+* `ceasarify` and boxing
+
+## modify:
+* object-oriented typeclasses: no longer `static`,  methods not functions
+* we're leaving the boundaries of the design pattern, but we get some benefits out of that
+* can we use non-public, private `input` data inside `static` method?
+
+## use:
+* classes we have no control over
+* classes we cannot inherit from
+* classes we do not want to inherit from
+
+## examples:
+* typeclass in object-oriented world is an equivalent of Objective-C `respondsToSelector:`
+* typeclass can bring together common interface, like `map` method for different types
 
 Going back to the code, one pretty obvious criticism that comes to mind when looking at implementations provided for strings and integers is: it doesn't scale! What if we'd like to make many more object encodable in Ceasar cipher? Do we need to provide very similar implementations for all of them? 
 
