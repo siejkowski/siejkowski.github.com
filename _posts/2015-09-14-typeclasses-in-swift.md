@@ -163,8 +163,9 @@ How about Scala?
 
 {% highlight scala %}
 
-    def encoderInCeasar[T: Ceasarable](c: T) = {
-      println(implicitly[Ceasarable[T]].toCeasar(c))
+    def encodeInCeasar[T: Ceasarable](c: T) = {
+      val encoded = implicitly[Ceasarable[T]].toCeasar(c)
+      println(encoded)
     }
 
     encodeInCeasar(1234) // "4567"
