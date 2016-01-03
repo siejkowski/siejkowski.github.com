@@ -12,7 +12,7 @@ description: An article describing what are typeclasses and how can we implement
 
 Few days ago I've got an email confirming that my presentation proposal at [Mobilization 2015](http://2015.mobilization.pl/) conference was accepted.
 
-I am so excited.
+I am so excited. I really am.
 
 I've co-organized two conferences ([Codepot 2015](https://codepot.pl) and [Warsjawa 2014](http://warsjawa.pl)) and volunteered at some others, but I've never given a conference talk. I've always wanted to. For one, there's something in the presentation format that makes it easy to break the ice with a topic. Two, good presentations are about storytelling, and I love good stories. Three, it gives me an excuse to play with [Deckset](http://www.decksetapp.com/), which is one of my favourite apps. Three is enough to get me sold!
 
