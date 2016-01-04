@@ -1,2 +1,2 @@
-## siejkowski.github.com
+## siejkowski.net blog
 
