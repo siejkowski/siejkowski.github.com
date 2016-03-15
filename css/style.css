@@ -69,6 +69,9 @@ h2 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.post-title {
+  font-weight: normal;
+}
 h3 {
   font: 20px 'Lora', serif;
   padding-top: 20px;
