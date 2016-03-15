@@ -8,7 +8,7 @@ keywords: project structure, architecture, functionalities, folders, names
 description: An article describing why there's no definitive way of organizing the source code and what can be done to improve project structure readability.
 
 ---
-# [{ page.title }]({ page.url })
+# [{{ page.title }}]({{ page.url }})
 
 Not a long time ago there was a discussion in the team I was working in concerning whether the project structure should be based on app's features or on its architecture.
 
@@ -86,4 +86,4 @@ I'd like to leave you with one thought: even if you're stuck with *folder system
 
 I'm more than happy to discuss the article or any other topic related to software development. Contact me [@\_siejkowski](https://twitter.com/_siejkowski). 
 
-### { page.date | date: "%Y-%m-%d" }
+### {{ page.date | date: "%Y-%m-%d" }}
