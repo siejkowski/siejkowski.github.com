@@ -40,10 +40,10 @@ However, while the text in source files is just as linear as text printed on a s
 Because the execution is non linear, there is no definitive way of organizing the source code. The application code can be looked at from numerous perspectives. Just to name a few: 
 
 * architecture: views, models, presenters, view models, aggregation roots, use cases, network clients, database clients, 
-* functionalities: bounded contexts such as registration, login, 
-* threads of execution: what is sync and what is async, what is foreground and what's in the background,
+* functionalities: bounded contexts such as registration, login or settings, 
+* threads of execution: what is sync and what is async, what is in the foreground and what's in the background,
 * scope: what is public and what is private, 
-* purpose: belongs to tests and what belongs to production code, 
+* purpose: what belongs to tests and what belongs to production code. 
 
 There are many more possible ways of looking at code. Some are valid only for particular types of projects or technology stacks. This is exactly what makes it hard to reason about computer programs.
 
