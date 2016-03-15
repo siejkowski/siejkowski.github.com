@@ -64,6 +64,7 @@ h1 {
 }
 h2 {
   font: 22px 'Lora', serif;
+  font-weight: bold;
   line-height: 1.35;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -92,7 +93,7 @@ pre {
   text-indent: 3.0em;
   font-size: 1em;
 }
-p {
+ul, ol, p {
   font: 19px "Source Sans Pro", Georgia, serif;
   line-height: 1.45;
   padding-bottom: 5px;
