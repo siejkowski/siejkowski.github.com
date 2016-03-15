@@ -1,6 +1,6 @@
 <section>
 	<h1 id="notes">Notes on programming</a></h1>
 	{% for post in site.posts %}
-		<h2><a href="{{ post.url }}">{{ post.title }}</a> / {{ post.date | date: "%Y-%m-%d" }}</h2>
+		<h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a> / {{ post.date | date: "%Y-%m-%d" }}</h2>
 	{% endfor %}
 </section>
