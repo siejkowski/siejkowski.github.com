@@ -8,7 +8,7 @@ keywords: watch, watchOS, apple watch, watch apps, wearables, wearables apps
 description: What kind of apps are the most usable on Apple Watch? Some thoughts from everyday user.
 
 ---
-## [{{ page.title }}]({{ page.url }}) 
+# [{{ page.title }}]({{ page.url }}) 
 
 Last month [underscore David Smith](https://twitter.com/_DavidSmith) of [Developing Perspective](http://developingperspective.com) and [Under the radar](https://www.relay.fm/radar) fame, author of [multiple iOS apps](https://david-smith.org/apps/), shared the lessons learned from [shipping eleven Apple Watch apps](https://david-smith.org/blog/2016/02/12/watch-apps-worth-making/). First of all --- what an impressive accomplishment! Congratulations! David's work and attitude has provided an inspiration for me and many others for a long time.
 
