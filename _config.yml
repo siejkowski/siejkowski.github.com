@@ -10,6 +10,6 @@ permalink: :title
 
 exclude: [CNAME, Gemfile, Gemfile.lock, README.md]
 
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 
