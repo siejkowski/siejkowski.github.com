@@ -1,7 +1,7 @@
 ---
 
 layout: layout
-title: "Watch apps worth using: customer perspective"
+title: "Watch apps worth using: customer's perspective"
 author: Krzysztof Siejkowski
 date: 2016-03-21
 keywords: watch, watchOS, apple watch, watch apps, wearables, wearables apps 
