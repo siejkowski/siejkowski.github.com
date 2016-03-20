@@ -12,7 +12,7 @@ description: What kind of apps are the most usable on Apple Watch? Some thoughts
 
 Last month [underscore David Smith](https://twitter.com/_DavidSmith) of [Developing Perspective](http://developingperspective.com) and [Under the radar](https://www.relay.fm/radar) fame, author of [multiple iOS apps](https://david-smith.org/apps/), shared the lessons learned from [shipping eleven Apple Watch apps](https://david-smith.org/blog/2016/02/12/watch-apps-worth-making/). First of all --- what an impressive accomplishment! Congratulations! David's work and attitude has provided an inspiration for me and many others for a long time.
 
-At the same time a number of friends has asked me about the Apple Watch. Is it usable? Is it worth the price? Are there any useful features? Are there any killer apps? To answer these questions, I've tried to become more self-conscious about how I use the Apple product. I've been wearing it everyday since May 2015 and, being an iOS developer myself, I've checked a number of different watchOS apps to gather the anecdotical material for my analysis. Eventually it's led me to following insights concerning what kind of watch apps makes sense to use in the current software/hardware cycle. 
+At the same time a number of friends had asked me about the Apple Watch. Is it usable? Is it worth the price? Are there any useful features? Are there any killer apps? To answer these questions, I've tried to become more self-aware about how I use the Apple product. I've been wearing it everyday since May 2015 and, being an iOS developer myself, I've checked a number of different watchOS apps to gather the anecdotical material for my analysis. Eventually it's led me to following insights concerning what kind of watch apps makes sense to use in the current software/hardware cycle. 
 
 Disclaimer: I haven't shipped any apps for Apple Watch, so please take it with a grain of salt. Your mileage may vary.
 
@@ -47,15 +47,15 @@ The *app-independent* activity doesn't require user's attention to proceed. It h
 * **Getting the fitness data**.
 * **Sleep tracking**.
 
-Please notice the subtle, but crucial difference. From the app's perspective the activity might require being in the foreground, even if only for a quick while. Synchronizing with web server via iOS background updates, fetching new data in response to a push notification, getting a location change callback --- none of those happen without executing the app's code. However, from the user perspective, those activities doesn't require any attention.
+Please notice the subtle, but crucial difference. From the app's perspective the activity might require being in the foreground, even if only for a quick while. Synchronizing with web server via iOS background updates, fetching new data in response to a push notification, getting a location change callback --- none of those happen without executing the app's code. However, from the user's perspective, those activities don't require any attention.
 
-Also, please notice that a particular service often contains both *app-dependent* and *app-independent* activities. The post on your Facebook wall will appear when your friend adds it, even if you don't have the Facebook client open. You won't read it, however, unless you launch Facebook app.
+Also, please notice that a particular service often contains both *app-dependent* and *app-independent* activities. The post on your Facebook wall will appear when your friend adds it, even if you don't have the Facebook client open. You won't read it, however, until you launch the app.
 
 Now the following should make more sense: **Apple Watch apps that are most usable control and monitor _app-independent_ activities. The apps that are based on _app-dependent_ activities are way less compelling to use.** But why is that a case?
 
 ## Why is the Apple Watch much worse for _app-dependent_ activities?
 
-I blame it on the mix of the watch interface design and early hardware cycle. 
+I blame it on the mix of the watch interface design and the early hardware cycle. 
 
 Concerning the interface, being worn on a wrist is a decisive factor. You cannot comfortable keep your arm in an interaction-ready position for a long time. The screen is only as huge as the human biology lets it, which is way too small for many activities that require user attention. It makes the extended periods of usage uncomfortable.
 
@@ -95,8 +95,8 @@ Moving to the _app-dependent_ activities: reading tweets, writing tweets, changi
 
 What about retweeting other people tweets? Well, decide by yourself! Retweeting can be either _app-dependent_ (if it requires a long interaction) or _app-independent_ (if it's more like pausing a song, e.g., pushing a button on an interactive notification). The app design influences what category the particular activity belongs to. It can also vary from user to user, as it always does when it comes to UX.
 
-*Well, design is always hard, isn't it?*
+I hope you'll find the above analysis useful. Of course there's a lot more to the app's success than picking the right set of features for the watch. The idea of _app-dependency_ is just one way of looking at a hard process of designing. It might be helpful, but it definitely doesn't provide all the answers.
 
-Hope you'll find the above analysis useful. I'm more than happy to discuss it or any other topic related to software development. Contact me [@\_siejkowski](https://twitter.com/_siejkowski). 
+I'm more than happy to discuss it or any other topic related to software development. Contact me [@\_siejkowski](https://twitter.com/_siejkowski). 
 
 ### {{ page.date | date: "%Y-%m-%d" }} 
