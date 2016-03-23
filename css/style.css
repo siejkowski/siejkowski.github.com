@@ -91,9 +91,18 @@ a {
   margin: auto;
   width: 90%;
 }
+
+figure {
+  display: block;
+  margin: auto;
+}
+
 pre {
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
   white-space: pre-wrap;
-  text-indent: 3.0em;
+  text-indent: 0.0em; 
   font-size: 1em;
 }
 ul, ol, p {
