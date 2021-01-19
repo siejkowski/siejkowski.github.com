@@ -59,25 +59,33 @@ h1 {
   overflow: visible;
   margin-left: 0%;
   font: 32px 'Lora', serif;
-  padding-top: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 60px;
   padding-bottom: 20px;
 }
 h2 {
   font: 22px 'Lora', serif;
   font-weight: bold;
   line-height: 1.35;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 .post-title {
   font-weight: normal;
 }
 h3 {
   font: 20px 'Lora', serif;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 40px;
+  padding-bottom: 0px;
 }
 h6 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 10%;
   font: 18px 'Lora', serif;
   line-height: 1.7;
